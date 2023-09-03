@@ -2,8 +2,7 @@ function receivesAFunction(callback) {
   callback();
     return null;
   }
-  receivesAFunction(function(name) {return 'Hello'})
-
+  
   function returnsANamedFunction() {
   
     return function namedFunction() {
